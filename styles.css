@@ -1,51 +1,64 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
 header {
-    background-color: #4CAF50;
+    background: #333;
     color: white;
+    padding: 1rem 0;
     text-align: center;
-    padding: 1em 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2rem;
 }
 
 nav {
-    background-color: #333;
+    background: #444;
+    color: white;
+    text-align: center;
+    padding: 0.5rem 0;
 }
 
 nav ul {
-    list-style-type: none;
+    list-style: none;
     padding: 0;
 }
 
 nav ul li {
     display: inline;
-    margin-right: 10px;
+    margin: 0 1rem;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
-    padding: 14px 20px;
-    display: inline-block;
-}
-
-nav ul li a:hover {
-    background-color: #575757;
+    font-size: 1.1rem;
 }
 
 section {
-    padding: 2em;
+    padding: 2rem;
+    background: white;
+    margin: 1rem 0;
 }
 
 footer {
-    background-color: #333;
+    background: #333;
     color: white;
     text-align: center;
-    padding: 1em 0;
+    padding: 1rem 0;
     position: fixed;
-    width: 100%;
     bottom: 0;
+    width: 100%;
 }
